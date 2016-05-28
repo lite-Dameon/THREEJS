@@ -1,0 +1,96 @@
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+.panel {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 25px 40px 25px 40px;
+  background-color: transparent;
+}
+
+.panel .row-small {
+  height: 20%;
+}
+
+.panel .row-large {
+  height: 60%;
+}
+
+.panel .row {
+  overflow: hidden;
+}
+
+.panel .row .col-md-4, .panel .row .col-xs-4, .panel .row .col-sm-4 {
+  height: 100%;
+}
+
+.panel .row .col-md-4 p, .panel .row .col-xs-4 p, .panel .row .col-sm-4 p {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+.panel .row .col-md-4 ul, .panel .row .col-xs-4 ul, .panel .row .col-sm-4 ul {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  color: skyblue;
+  text-align: center;
+  list-style: none;
+}
+
+.panel .row .col-md-4 ul li, .panel .row .col-xs-4 ul li, .panel .row .col-sm-4 ul li {
+  width: auto;
+}
+
+.panel .row .col-md-4 ul li:hover, .panel .row .col-xs-4 ul li:hover, .panel .row .col-sm-4 ul li:hover {
+  border-radius: 50%;
+  color: green;
+  font-size: 80px;
+}
+
+.panel .row .col-md-12, .panel .row .col-xs-12, .panel .row .col-sm-12 {
+  height: 100%;
+}
+
+.panel .row .par1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Permanent Marker', cursive;
+  color: pink;
+}
+
+#player {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  max-height: 77%;
+  transition: all 5s ease-in-out;
+}
+
+.health-bar {
+  height: 15%;
+  width: 88%;
+  background-color: transparent;
+  border: 2px solid;
+  position: absolute;
+  bottom: 2%;
+  left: 10%;
+}
+
+.health-bar .health {
+  height: 99%;
+  width: 100%;
+  background-color: green;
+}
+
+.options {
+  font-size: 30px;
+}
